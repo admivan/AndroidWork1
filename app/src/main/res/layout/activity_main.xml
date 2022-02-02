@@ -7,6 +7,56 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!--
+    Макет с элементами все элементы выполняют действия.
+    -->
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EA56C0"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Введите текст"
+        android:inputType="text"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Изменить текст в место HW" />
+
+    <Switch
+        android:id="@+id/color_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Изменить цвет фона текствиев на белый"
+
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <ToggleButton
+        android:id="@+id/theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonwork2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Переключить экран на второе задание" />
 
 </LinearLayout>
